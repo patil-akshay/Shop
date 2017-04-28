@@ -1,0 +1,21 @@
+<html>
+<head>
+<body>
+<script src="DeviceF.js"></script>
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.js"></script>
+<h1> User Details </h1>
+<script>
+document.write(
+    'OS : ' + os +' '+ osver + '<br>' +
+    'Browser : ' + browser +' '+ browsermaj +
+      ' (' + browserver + ')<br>' + 
+    'Mobile : ' + mobilecheck + '<br>' +
+    'Cookies : ' + cookies + '<br>' +
+	'Time Zone : ' + timezone + '<br>' +
+	'Public IP :' + pubip + '<br>' +
+	'Local IP :' + localip
+);
+</script>
+</body>
+</html>
